@@ -1,5 +1,14 @@
 # Yiimp_install_scrypt_ubuntu18.10 (update april, 2020)
 
+git clone https://github.com/allforminers/Yiimp-ubuntu18-work.git
+
+cd allforminers/Yiimp-ubuntu18-work
+
+cd OLD
+
+sudo bash install.sh
+
+
 Site : https://www.xavatar.com
 
 Discord : https://discord.gg/zcCXjkQ
