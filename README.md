@@ -2,7 +2,7 @@
 
 git clone https://github.com/allforminers/Yiimp-ubuntu18-work.git
 
-cd allforminers/Yiimp-ubuntu18-work
+cd Yiimp-ubuntu18-work
 
 cd OLD
 
