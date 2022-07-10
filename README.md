@@ -9,6 +9,25 @@ cd OLD
 sudo bash install.sh
 
 
+INF NGX BAD GATE ERROR INSTALL
+
+Code:
+sudo apt install php7.3-memcache php7.3-memcached memcached
+
+and then change the default php version from 8.1 to 7.3:
+
+Code:
+sudo update-alternatives --config php
+
+Finally, then I restarted nginx and php fpm:
+
+Code:
+sudo service nginx restart
+
+sudo service php7.3-fpm restart
+
+
+
 Site : https://www.xavatar.com
 
 Discord : https://discord.gg/zcCXjkQ
